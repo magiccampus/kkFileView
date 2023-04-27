@@ -17,12 +17,20 @@ public interface FilePreview {
     String PICTURE_FILE_PREVIEW_PAGE = "picture";
     String TIFF_FILE_PREVIEW_PAGE = "tiff";
     String OFD_FILE_PREVIEW_PAGE = "ofd";
+    String SVG_FILE_PREVIEW_PAGE = "svg";
+    String Online3D_FILE_PAGE = "online3D";
+    String EpubFilePreviewImpl = "epub";
+    String XMIND_FILE_PREVIEW_PAGE = "xmind";
+    String EML_FILE_PREVIEW_PAGE = "eml";
     String OFFICE_PICTURE_FILE_PREVIEW_PAGE = "officePicture";
     String TXT_FILE_PREVIEW_PAGE = "txt";
     String CODE_FILE_PREVIEW_PAGE = "code";
     String EXEL_FILE_PREVIEW_PAGE = "html";
     String XML_FILE_PREVIEW_PAGE = "xml";
     String MARKDOWN_FILE_PREVIEW_PAGE = "markdown";
+    String BPMN_FILE_PREVIEW_PAGE = "bpmn";
+    String DCM_FILE_PREVIEW_PAGE = "dcm";
+    String DRAWUI_FILE_PREVIEW_PAGE = "drawio";
     String NOT_SUPPORTED_FILE_PAGE = "fileNotSupported";
 
     String filePreviewHandle(String url, Model model, FileAttribute fileAttribute);
